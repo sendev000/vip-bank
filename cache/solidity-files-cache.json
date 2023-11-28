@@ -1,0 +1,75 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/shit/WorkSpace/solidity-quillaudit/quillaudits/vip-bank/contracts/Vip_Bank_Attacker.sol": {
+      "lastModificationDate": 1701183325000,
+      "contentHash": "bf97a4f771de2954b7a1342ac3ceabbc",
+      "sourceName": "contracts/Vip_Bank_Attacker.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "VIPBankAttacker"
+      ]
+    },
+    "/home/shit/WorkSpace/solidity-quillaudit/quillaudits/vip-bank/contracts/vip_banks.sol": {
+      "lastModificationDate": 1701183132009,
+      "contentHash": "8f1fce622831df8ebea60cf7f1d24925",
+      "sourceName": "contracts/vip_banks.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "VIP_Bank"
+      ]
+    }
+  }
+}
