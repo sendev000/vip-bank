@@ -6,7 +6,7 @@ describe('QuillCTF2: VIP Bank', () => {
 
   before(async () => {
     [owner, attacker] = await ethers.getSigners();
-    contract = await ethers.getContractFactory('VIPBank', owner).then(f => f.deploy());
+    contract = await ethers.getContractFactory('VIP_Bank', owner).then(f => f.deploy());
     await contract.deployed();
   });
 
